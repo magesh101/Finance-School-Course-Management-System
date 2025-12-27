@@ -1,0 +1,294 @@
+2025-12-27T07:30:53.724Z  INFO 17296 --- [main] c.e.springapp.SpringappApplicationTests  : Starting SpringappApplicationTests using Java 17.0.17 with PID 17296 (started by coder in /home/coder/project/workspace/springapp)
+2025-12-27T07:30:53.725Z  INFO 17296 --- [main] c.e.springapp.SpringappApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-12-27T07:30:54.229Z  INFO 17296 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-27T07:30:54.273Z  INFO 17296 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 5 JPA repository interfaces.
+2025-12-27T07:30:54.509Z  INFO 17296 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-27T07:30:54.544Z  INFO 17296 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2025-12-27T07:30:54.569Z  INFO 17296 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-27T07:30:54.745Z  INFO 17296 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-27T07:30:54.764Z  INFO 17296 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-27T07:30:54.909Z  INFO 17296 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@577f9dfd
+2025-12-27T07:30:54.911Z  INFO 17296 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-27T07:30:54.927Z  WARN 17296 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-27T07:30:54.928Z  WARN 17296 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-12-27T07:30:54.942Z  INFO 17296 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-27T07:30:55.525Z  INFO 17296 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-27T07:30:55.833Z  INFO 17296 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-27T07:30:56.167Z  WARN 17296 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-27T07:30:56.525Z  INFO 17296 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-12-27T07:30:56.525Z  INFO 17296 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-12-27T07:30:56.527Z  INFO 17296 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-12-27T07:30:56.555Z  INFO 17296 --- [main] c.e.springapp.SpringappApplicationTests  : Started SpringappApplicationTests in 3.059 seconds (process running for 3.724)
+2025-12-27T07:30:57.094Z  WARN 17296 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.examly.springapp.model.Instructor> com.examly.springapp.controller.InstructorController.createInstructor(com.examly.springapp.model.Instructor)]
+2025-12-27T07:30:57.406Z  WARN 17296 --- [main] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-12-27T07:30:57.622Z  INFO 17296 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-27T07:30:57.624Z  INFO 17296 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-27T07:30:57.630Z  INFO 17296 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-27T07:46:10.303Z  INFO 24089 --- [main] c.e.springapp.SpringappApplicationTests  : Starting SpringappApplicationTests using Java 17.0.17 with PID 24089 (started by coder in /home/coder/project/workspace/springapp)
+2025-12-27T07:46:10.304Z  INFO 24089 --- [main] c.e.springapp.SpringappApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-12-27T07:46:11.095Z  INFO 24089 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-27T07:46:11.161Z  INFO 24089 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 5 JPA repository interfaces.
+2025-12-27T07:46:11.711Z  INFO 24089 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-27T07:46:11.740Z  INFO 24089 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2025-12-27T07:46:11.761Z  INFO 24089 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-27T07:46:11.941Z  INFO 24089 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-27T07:46:11.962Z  INFO 24089 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-27T07:46:12.081Z  INFO 24089 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f2c995b
+2025-12-27T07:46:12.082Z  INFO 24089 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-27T07:46:12.097Z  WARN 24089 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-27T07:46:12.098Z  WARN 24089 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-12-27T07:46:12.112Z  INFO 24089 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-27T07:46:12.718Z  INFO 24089 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-27T07:46:12.926Z  INFO 24089 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-27T07:46:13.516Z  WARN 24089 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-27T07:46:13.928Z  INFO 24089 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-12-27T07:46:13.929Z  INFO 24089 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-12-27T07:46:13.930Z  INFO 24089 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-12-27T07:46:13.959Z  INFO 24089 --- [main] c.e.springapp.SpringappApplicationTests  : Started SpringappApplicationTests in 3.888 seconds (process running for 4.605)
+2025-12-27T07:46:14.500Z  WARN 24089 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.examly.springapp.model.Instructor> com.examly.springapp.controller.InstructorController.createInstructor(com.examly.springapp.model.Instructor)]
+2025-12-27T07:46:14.513Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.611Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.681Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.711Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.761Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.771Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.781Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.789Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.796Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.808Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.818Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.825Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.829Z  WARN 24089 --- [main] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-12-27T07:46:14.842Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.849Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.854Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.856Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.863Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.865Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.870Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.873Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.877Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.879Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.886Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.890Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.897Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.905Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.910Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.916Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.922Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.928Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.933Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.937Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.942Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.945Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.950Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.952Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.957Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.961Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.965Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.979Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.986Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.989Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:14.994Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:14.997Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:15.011Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:15.016Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:15.021Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:15.024Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:15.029Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T07:46:15.031Z  INFO 24089 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T07:46:15.075Z  INFO 24089 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-27T07:46:15.076Z  INFO 24089 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-27T07:46:15.081Z  INFO 24089 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-27T12:49:59.155Z  INFO 622 --- [main] c.e.springapp.SpringappApplicationTests  : Starting SpringappApplicationTests using Java 17.0.17 with PID 622 (started by coder in /home/coder/project/workspace/springapp)
+2025-12-27T12:49:59.224Z  INFO 622 --- [main] c.e.springapp.SpringappApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-12-27T12:49:59.982Z  INFO 622 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-27T12:50:00.060Z  INFO 622 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 5 JPA repository interfaces.
+2025-12-27T12:50:00.576Z  INFO 622 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-27T12:50:00.651Z  INFO 622 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2025-12-27T12:50:00.673Z  INFO 622 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-27T12:50:00.973Z  INFO 622 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-27T12:50:00.993Z  INFO 622 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-27T12:50:01.173Z  INFO 622 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16391278
+2025-12-27T12:50:01.175Z  INFO 622 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-27T12:50:01.191Z  WARN 622 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-27T12:50:01.192Z  WARN 622 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-12-27T12:50:01.206Z  INFO 622 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-27T12:50:02.072Z  INFO 622 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-27T12:50:02.459Z  INFO 622 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-27T12:50:03.330Z  WARN 622 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-27T12:50:04.832Z  INFO 622 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-12-27T12:50:04.832Z  INFO 622 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-12-27T12:50:04.834Z  INFO 622 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-12-27T12:50:04.935Z  INFO 622 --- [main] c.e.springapp.SpringappApplicationTests  : Started SpringappApplicationTests in 6.204 seconds (process running for 7.647)
+2025-12-27T12:50:06.729Z  WARN 622 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.examly.springapp.model.Instructor> com.examly.springapp.controller.InstructorController.createInstructor(com.examly.springapp.model.Instructor)]
+2025-12-27T12:50:06.748Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:07.127Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:07.368Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:07.451Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:07.542Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:07.549Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:07.559Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:07.568Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:07.629Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:07.643Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:07.650Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:07.658Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:07.663Z  WARN 622 --- [main] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-12-27T12:50:07.731Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:07.740Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:07.747Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:07.751Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:07.760Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:07.764Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:07.823Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:07.827Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:07.834Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:07.839Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:07.853Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:07.859Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:07.934Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:07.943Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:07.952Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:07.955Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:07.962Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:08.027Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:08.035Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:08.041Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:08.048Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:08.052Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:08.059Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:08.061Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:08.126Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:08.172Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:08.224Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:08.238Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:08.245Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:08.248Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:08.253Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:08.255Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:08.268Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:08.270Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:08.275Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:08.278Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:08.325Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T12:50:08.328Z  INFO 622 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T12:50:08.435Z  INFO 622 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-27T12:50:08.438Z  INFO 622 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-27T12:50:08.445Z  INFO 622 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-27T18:17:16.963Z  INFO 776 --- [main] c.e.springapp.SpringappApplicationTests  : Starting SpringappApplicationTests using Java 17.0.17 with PID 776 (started by coder in /home/coder/project/workspace/springapp)
+2025-12-27T18:17:16.984Z  INFO 776 --- [main] c.e.springapp.SpringappApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-12-27T18:17:18.016Z  INFO 776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-27T18:17:18.104Z  INFO 776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 5 JPA repository interfaces.
+2025-12-27T18:17:18.694Z  INFO 776 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-27T18:17:18.759Z  INFO 776 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2025-12-27T18:17:18.781Z  INFO 776 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-27T18:17:19.113Z  INFO 776 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-27T18:17:19.179Z  INFO 776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-27T18:17:19.377Z  INFO 776 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a466dd
+2025-12-27T18:17:19.379Z  INFO 776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-27T18:17:19.396Z  WARN 776 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-27T18:17:19.397Z  WARN 776 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-12-27T18:17:19.414Z  INFO 776 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-27T18:17:20.234Z  INFO 776 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-27T18:17:20.523Z  INFO 776 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-27T18:17:21.474Z  WARN 776 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-27T18:17:21.820Z  INFO 776 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-12-27T18:17:21.820Z  INFO 776 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-12-27T18:17:21.821Z  INFO 776 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-12-27T18:17:21.843Z  INFO 776 --- [main] c.e.springapp.SpringappApplicationTests  : Started SpringappApplicationTests in 5.38 seconds (process running for 6.876)
+2025-12-27T18:17:22.363Z  WARN 776 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.examly.springapp.model.Instructor> com.examly.springapp.controller.InstructorController.createInstructor(com.examly.springapp.model.Instructor)]
+2025-12-27T18:17:22.374Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.497Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.596Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.624Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.658Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.662Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.669Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.676Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.682Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.694Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.698Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.704Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.707Z  WARN 776 --- [main] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-12-27T18:17:22.717Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.723Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.727Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.729Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.735Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.737Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.742Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.744Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.748Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.751Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.757Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.761Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.767Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.773Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.778Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.780Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.785Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.790Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.795Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.799Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.803Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.805Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.809Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.811Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.815Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.819Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.823Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.836Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.842Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.845Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.850Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.851Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.863Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.864Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.869Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.871Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.876Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hiih
+2025-12-27T18:17:22.877Z  INFO 776 --- [main] com.examly.springapp.aop.LoggingAspect   : Hello
+2025-12-27T18:17:22.922Z  INFO 776 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-27T18:17:22.924Z  INFO 776 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-27T18:17:22.930Z  INFO 776 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
